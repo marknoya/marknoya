@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB1100000000000000000001 /* ProjectManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000001 /* ProjectManagerApp.swift */; };
+		AB1100000000000000000002 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000002 /* Project.swift */; };
+		AB1100000000000000000003 /* ProjectTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000003 /* ProjectTask.swift */; };
+		AB1100000000000000000004 /* NeededItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000004 /* NeededItem.swift */; };
+		AB1100000000000000000005 /* LaborRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000005 /* LaborRequirement.swift */; };
+		AB1100000000000000000006 /* ContractorSubTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000006 /* ContractorSubTask.swift */; };
+		AB1100000000000000000007 /* ParsedProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000007 /* ParsedProject.swift */; };
+		AB1100000000000000000008 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000008 /* PersistenceController.swift */; };
+		AB1100000000000000000009 /* ThoughtsFileParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000009 /* ThoughtsFileParser.swift */; };
+		AB110000000000000000000A /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA110000000000000000000A /* NotificationManager.swift */; };
+		AB110000000000000000000B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA110000000000000000000B /* DashboardView.swift */; };
+		AB110000000000000000000C /* ProjectRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA110000000000000000000C /* ProjectRowView.swift */; };
+		AB110000000000000000000D /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA110000000000000000000D /* ImportView.swift */; };
+		AB110000000000000000000E /* ImportReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA110000000000000000000E /* ImportReviewView.swift */; };
+		AB110000000000000000000F /* ProjectDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA110000000000000000000F /* ProjectDetailView.swift */; };
+		AB1100000000000000000010 /* ProjectPrepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000010 /* ProjectPrepView.swift */; };
+		AB1100000000000000000011 /* ContractorWorkflowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000011 /* ContractorWorkflowView.swift */; };
+		AB1100000000000000000012 /* ProjectSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000012 /* ProjectSetupView.swift */; };
+		AB1100000000000000000013 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000013 /* RemindersView.swift */; };
+		AB1100000000000000000014 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000014 /* ProgressBarView.swift */; };
+		AB1100000000000000000015 /* StatusBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000015 /* StatusBadgeView.swift */; };
+		AB1100000000000000000016 /* LocationFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000016 /* LocationFilterView.swift */; };
+		AB1100000000000000000017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000017 /* Assets.xcassets */; };
+		AB1100000000000000000019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1100000000000000000019 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1100000000000000000001 /* ProjectManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectManagerApp.swift; sourceTree = "<group>"; };
+		AA1100000000000000000002 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		AA1100000000000000000003 /* ProjectTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTask.swift; sourceTree = "<group>"; };
+		AA1100000000000000000004 /* NeededItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeededItem.swift; sourceTree = "<group>"; };
+		AA1100000000000000000005 /* LaborRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaborRequirement.swift; sourceTree = "<group>"; };
+		AA1100000000000000000006 /* ContractorSubTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractorSubTask.swift; sourceTree = "<group>"; };
+		AA1100000000000000000007 /* ParsedProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsedProject.swift; sourceTree = "<group>"; };
+		AA1100000000000000000008 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		AA1100000000000000000009 /* ThoughtsFileParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtsFileParser.swift; sourceTree = "<group>"; };
+		AA110000000000000000000A /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		AA110000000000000000000B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AA110000000000000000000C /* ProjectRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectRowView.swift; sourceTree = "<group>"; };
+		AA110000000000000000000D /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+		AA110000000000000000000E /* ImportReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportReviewView.swift; sourceTree = "<group>"; };
+		AA110000000000000000000F /* ProjectDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectDetailView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000010 /* ProjectPrepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPrepView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000011 /* ContractorWorkflowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractorWorkflowView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000012 /* ProjectSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSetupView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000013 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000014 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000015 /* StatusBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBadgeView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000016 /* LocationFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFilterView.swift; sourceTree = "<group>"; };
+		AA1100000000000000000017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA1100000000000000000018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1100000000000000000019 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA110000000000000000001A /* ProjectManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE1100000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC1100000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AC1100000000000000000003 /* ProjectManager */,
+				AC1100000000000000000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA110000000000000000001A /* ProjectManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000003 /* ProjectManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000001 /* ProjectManagerApp.swift */,
+				AC1100000000000000000004 /* Models */,
+				AC1100000000000000000005 /* Services */,
+				AC1100000000000000000006 /* Views */,
+				AA1100000000000000000017 /* Assets.xcassets */,
+				AA1100000000000000000018 /* Info.plist */,
+				AC110000000000000000000E /* Preview Content */,
+			);
+			path = ProjectManager;
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000002 /* Project.swift */,
+				AA1100000000000000000003 /* ProjectTask.swift */,
+				AA1100000000000000000004 /* NeededItem.swift */,
+				AA1100000000000000000005 /* LaborRequirement.swift */,
+				AA1100000000000000000006 /* ContractorSubTask.swift */,
+				AA1100000000000000000007 /* ParsedProject.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000008 /* PersistenceController.swift */,
+				AA1100000000000000000009 /* ThoughtsFileParser.swift */,
+				AA110000000000000000000A /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC1100000000000000000007 /* Dashboard */,
+				AC1100000000000000000008 /* Import */,
+				AC1100000000000000000009 /* ProjectDetail */,
+				AC110000000000000000000A /* ProjectPrep */,
+				AC110000000000000000000B /* Setup */,
+				AC110000000000000000000C /* Reminders */,
+				AC110000000000000000000D /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000007 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				AA110000000000000000000B /* DashboardView.swift */,
+				AA110000000000000000000C /* ProjectRowView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000008 /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				AA110000000000000000000D /* ImportView.swift */,
+				AA110000000000000000000E /* ImportReviewView.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+		AC1100000000000000000009 /* ProjectDetail */ = {
+			isa = PBXGroup;
+			children = (
+				AA110000000000000000000F /* ProjectDetailView.swift */,
+			);
+			path = ProjectDetail;
+			sourceTree = "<group>";
+		};
+		AC110000000000000000000A /* ProjectPrep */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000010 /* ProjectPrepView.swift */,
+				AA1100000000000000000011 /* ContractorWorkflowView.swift */,
+			);
+			path = ProjectPrep;
+			sourceTree = "<group>";
+		};
+		AC110000000000000000000B /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000012 /* ProjectSetupView.swift */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		AC110000000000000000000C /* Reminders */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000013 /* RemindersView.swift */,
+			);
+			path = Reminders;
+			sourceTree = "<group>";
+		};
+		AC110000000000000000000D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000014 /* ProgressBarView.swift */,
+				AA1100000000000000000015 /* StatusBadgeView.swift */,
+				AA1100000000000000000016 /* LocationFilterView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC110000000000000000000E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA1100000000000000000019 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1100000000000000000001 /* ProjectManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B11100000000000000000002 /* Build configuration list for PBXNativeTarget "ProjectManager" */;
+			buildPhases = (
+				AE1100000000000000000001 /* Sources */,
+				AE1100000000000000000002 /* Frameworks */,
+				AE1100000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectManager;
+			productName = ProjectManager;
+			productReference = AA110000000000000000001A /* ProjectManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B01100000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AF1100000000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B11100000000000000000001 /* Build configuration list for PBXProject "ProjectManager" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC1100000000000000000001;
+			productRefGroup = AC1100000000000000000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1100000000000000000001 /* ProjectManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE1100000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1100000000000000000017 /* Assets.xcassets in Resources */,
+				AB1100000000000000000019 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE1100000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1100000000000000000001 /* ProjectManagerApp.swift in Sources */,
+				AB1100000000000000000002 /* Project.swift in Sources */,
+				AB1100000000000000000003 /* ProjectTask.swift in Sources */,
+				AB1100000000000000000004 /* NeededItem.swift in Sources */,
+				AB1100000000000000000005 /* LaborRequirement.swift in Sources */,
+				AB1100000000000000000006 /* ContractorSubTask.swift in Sources */,
+				AB1100000000000000000007 /* ParsedProject.swift in Sources */,
+				AB1100000000000000000008 /* PersistenceController.swift in Sources */,
+				AB1100000000000000000009 /* ThoughtsFileParser.swift in Sources */,
+				AB110000000000000000000A /* NotificationManager.swift in Sources */,
+				AB110000000000000000000B /* DashboardView.swift in Sources */,
+				AB110000000000000000000C /* ProjectRowView.swift in Sources */,
+				AB110000000000000000000D /* ImportView.swift in Sources */,
+				AB110000000000000000000E /* ImportReviewView.swift in Sources */,
+				AB110000000000000000000F /* ProjectDetailView.swift in Sources */,
+				AB1100000000000000000010 /* ProjectPrepView.swift in Sources */,
+				AB1100000000000000000011 /* ContractorWorkflowView.swift in Sources */,
+				AB1100000000000000000012 /* ProjectSetupView.swift in Sources */,
+				AB1100000000000000000013 /* RemindersView.swift in Sources */,
+				AB1100000000000000000014 /* ProgressBarView.swift in Sources */,
+				AB1100000000000000000015 /* StatusBadgeView.swift in Sources */,
+				AB1100000000000000000016 /* LocationFilterView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B21100000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B21100000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B21100000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectManager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProjectManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marknoya.ProjectManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B21100000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectManager/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ProjectManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marknoya.ProjectManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11100000000000000000001 /* Build configuration list for PBXProject "ProjectManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21100000000000000000001 /* Debug */,
+				B21100000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B11100000000000000000002 /* Build configuration list for PBXNativeTarget "ProjectManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B21100000000000000000003 /* Debug */,
+				B21100000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B01100000000000000000001 /* Project object */;
+}
